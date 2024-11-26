@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">PROJECT</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">ME</a></li>
+							<li class="active"><a href="imageIdentifier.html">PROJECT</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/xerxeskyronopalec" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.linkedin.com/in/xerxes-kyron-opalec-43a584279/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									
+									<h3 style="font-size: 45px;">Distinguishing Diffusion-Generated Images from 
+										Natural Images using a CNN Model Built from Scratch 
+										
+										<br />
+									</h3>
+									<a class="image main"><img src="images/AiMain.png" alt="" /></a>
+
+								</header>
+					
+								<p> &emsp;&emsp;&emsp; This project explored the capability of Convolutional Neural Networks (CNNs) in distinguishing diffusion-generated images created by the Stable Diffusion model from natural images sourced from the LAION-5b dataset. By implementing multiple CNN configurations, the research demonstrated high accuracy in identifying key features differentiating the two image classes. The study also tested other models, such as MLP and EfficientNet-based architectures, with CNN emerging as the most reliable and consistent performer across diverse configurations. These findings establish a foundation for understanding how AI-generated images can be identified, which is crucial in the growing field of generative AI.</p>
+							    <p style="font-size: 25px;"><br /> <b>Challenges: </b></p>
+								<ol>
+									<li><b>Data Limitations:</b></li>
+									<ul>
+										<li>The LAION-5b dataset, while extensive, required rigorous filtering to ensure relevance and quality.</li>
+										<li>Balancing the dataset between diffusion-generated and natural images posed a challenge in maintaining class distribution.</li>
+									  </ul>
+									<li><b>Model Optimization:</b></li>
+									<ul>
+										<li>Identifying optimal hyperparameters (e.g., convolutional layers, dropout rates, and learning rates) required extensive experimentation.</li>
+										<li>Ensuring the CNN model generalized well across unseen data without overfitting was a critical hurdle.</li>
+
+									  </ul>
+
+									<li><b>Evaluation Metrics:</b></li>
+									<ul>
+										<li>Comparing performance across multiple models (e.g., CNN, MLP, and EfficientNet variants) required careful metric selection to ensure fair and meaningful evaluations.</li>
+										<li>The trade-off between model complexity and performance had to be balanced, particularly for resource-intensive configurations like MC-EffNet-2.</li>
+									  </ul>
+								</ol>
+
+
+								<p style="font-size: 25px;"> <b>Learnings: </b></p>
+								<ol>
+									<li><b>Effectiveness of CNNs:</b></li>
+									<ul>
+										<li>The CNN model consistently performed well across configurations, demonstrating its suitability for distinguishing diffusion-generated images.</li>
+										<li>Simplicity in architecture, compared to more complex models, provided reliability and ease of tuning.</li>
+									  </ul>
+									<li><b>Importance of Preprocessing:</b></li>
+									<ul>
+										<li>Preprocessing techniques such as resizing (512x512) and normalization significantly enhanced model performance and reduced training time.</li>
+										<li>Uniform image dimensions and pixel standardization ensured comparability across datasets.</li>	
+									</ul>
+									<li><b>Generalization Across Models:</b></li>
+									<ul>
+										<li>While MC-EffNet-2 achieved the highest accuracy, its performance variance and computational demands made CNN the preferred choice for reliability.</li>
+										<li>Training models from scratch allowed flexibility and deeper understanding of model behavior.</li>
+									</ul>
+								</ol>
+
+								<p style="font-size: 25px;"> <b>Conclusion: </b></p>
+								<p>The project successfully demonstrated the efficacy of CNNs in distinguishing diffusion-generated images from natural ones. By leveraging large-scale datasets and implementing robust preprocessing techniques, the research highlighted the potential of tailored deep learning architectures for this novel challenge. The findings provide a strong foundation for future advancements in generative AI detection and its applications in various domains.
+								</p>
+
+								<p style="font-size: 25px;"> <b>Prototype: </b></p>
+								<a class="center"><img src="images/PrototypeImageGen.png" alt="" /></a>
+								<p >The prototype itself does not hold significant prominence within the context of this research paper. Rather, its purpose lies in the demonstration of the developed model's capabilities and its successful integration into an accessible system. Thus, limited emphasis is placed on the details and intricacies of the prototype within the scope of this study.
+								</p>
+								
+
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer" >
+						
+					<section class="split contact" >
+						<section class="alt" >
+							<h3 >Address</h3>
+							<p>Bakakeng Phase 3<br />
+							Baguio City</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#"> (63+) 9493704153</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">xerxeskyronopalec@gmail.com </a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.facebook.com/xerxeskyronopalec" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/in/xerxes-kyron-opalec-43a584279/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					<ul><li>&copy; PORTFOLIO</li><li>BY:XK</a></li></ul>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
